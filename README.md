@@ -2,15 +2,15 @@
 
 [cite_start]A Human-Computer Interaction (HCI) project that uses computer vision and machine learning to control system volume using hand gestures. [cite: 32, 80, 82]
 
-## 📝 Overview
+## Overview
 
 [cite_start]This project explores a modern approach to Human-Computer Interaction (HCI) by moving beyond traditional input devices like the mouse. [cite: 60, 61] [cite_start]We present a system that captures hand gestures through a webcam to dynamically control the system's sound levels. [cite: 82] [cite_start]It leverages machine learning and computer vision algorithms to recognize specific gestures and translate them into volume control commands, working smoothly without needing any additional hardware. [cite: 80]
 
-## 🎯 Objective
+## Objective
 
 [cite_start]The primary objective is to develop an interface that dynamically captures human hand gestures and uses them to control the computer's volume level. [cite: 82] [cite_start]This project aims to recognize hand gestures using **Machine Learning** and **Computer Vision** algorithms to control audio. [cite: 80]
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 This project is built using the following libraries and frameworks:
 
@@ -19,7 +19,7 @@ This project is built using the following libraries and frameworks:
 * [cite_start]**NumPy:** A fundamental library for numerical computing in Python, used for handling arrays and mathematical operations. [cite: 328]
 * [cite_start]**Pycaw:** A Python Core Audio Windows Library used to access and control the system's audio endpoints (like volume). [cite: 329]
 
-## ⚙️ How It Works
+## How It Works
 
 The system follows a clear data flow to process user actions and translate them into system commands.
 
@@ -31,7 +31,7 @@ The system follows a clear data flow to process user actions and translate them 
 4.  [cite_start]**Perform Action:** The processed command is used to perform a "mouse action" (in this case, adjusting the system audio). [cite: 127]
 5.  [cite_start]**Feedback:** The user receives visual feedback on the **Screen**, and the system waits for the next action, creating a continuous interaction loop. [cite: 126, 127]
 
-## 💡 Applications
+## Applications
 
 This touchless interface has several practical applications:
 
@@ -39,7 +39,7 @@ This touchless interface has several practical applications:
 * [cite_start]**Accessibility:** It provides a valuable alternative interface for visually challenged individuals. [cite: 181]
 * [cite_start]**Automation:** The system can be adapted to control robotics and other automation systems without requiring physical input devices. [cite: 180]
 
-## ⚠️ Limitations
+## Limitations
 
 The current implementation has some limitations:
 
@@ -48,7 +48,7 @@ The current implementation has some limitations:
 * [cite_start]**Camera Quality:** The performance is dependent on the quality of the webcam being used. [cite: 223]
 * [cite_start]**Further Enhancements:** The system could be improved by incorporating more advanced techniques like skin detection, background subtraction, and image smoothening. [cite: 220]
 
-## 🚀 Future Scope
+## Future Scope
 
 There are several exciting ways this project can be expanded:
 
